@@ -55,7 +55,7 @@ You may have to concatenate python.snippets with an existing python.snippets fil
 cd ~/.vim/my-snippets/neosnippets
 git clone https://github.com/MooersLab/cctbxsnips-neosnippets.git
 cd cctbxsnips-neosnippets/
-mv python.snippets ../.
+mv cctbx.snips ../.
 cd ..
 rm -rf cctbxsnips-neosnippets
 ```
