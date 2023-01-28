@@ -28,8 +28,10 @@ Replace the *3.9* or *39* above with whatever version of Python you want to use 
 
 ## Neosnippets
 
-Neosnippets a popular snippet manager for Vim.
-It should work with Neovim.
+[Neosnippets](https://github.com/Shougo/neosnippet.vim) is a popular snippet manager for Vim.
+It also works with Neovim.
+Its development has plateaued.
+
 There other snippets managers for Vim and NeoVim, such as ultisnips and snipmate.
 To complicate matters more, there several alternate systems for managing plugins.
 
@@ -58,7 +60,7 @@ cd ..
 rm -rf cctbxsnips-neosnippets
 ```
 
-2. **Optional** If you want to use these snippets from Emacs to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and XXXXXXXX in Vim .
+2. **Optional** If you want to use these snippets from Vim or NeoVim to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and the [Vim Ghost](https://github.com/raghur/vim-ghost)plugin for Vim. Intall the [nvim-ghost](https://github.com/subnut/nvim-ghost.nvim] plugin for NeoVim).
 
 ## Related repositories
 
