@@ -38,19 +38,21 @@ To complicate matters more, there several alternate systems for managing plugins
 
 ## The problems that this repo addresses
 
-1. **Facilitate code reuse**. The use of code snippets can save time by reusing existing code. The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered. Thus, tab stops can reduce subsequent debugging.
+1. **Facilitate code reuse**. The use of code snippets can save time by reusing existing code.
+The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered.
+Thus, tab stops can reduce subsequent debugging.
 
-2. **Use of Emacs to edit Jupyter and Colab code and markdown cells** The existing snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops: These are standard features of code snippet systems in most text editors.
-We can overcome these limitations by sending the active code cell to Emacs via the GhostText extension for the browser and the atomic-chrome package for Emacs.
+3. **Use of Emacs to edit Jupyter and Colab code and markdown cells** The existing snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops: These are standard features of code snippet systems in most text editors.
+We can overcome these limitations by sending the active code cell to Vim or NeoVim via the GhostText extension for the browser and the ghosttext.vim plugin.
 
 ## Installation
 
 1. Install the snippets for Vim.
 
 I assume that the `neosnippets` plugin has already been properly installed.
-The snippets are stored in a single file called `python.snippets`.
+The snippets are stored in a single file called `cctbx.snips`.
 I store this file in a folder called `~/.vim/my-snippets/neosnippets`.
-You may have to concatenate the `python.snippets` with an existing `python.snippets` file.
+You may have to concatenate the `cctbx.snips` with an existing `python.snippets` file.
 
 ```bash
 cd ~/.vim/my-snippets/neosnippets
