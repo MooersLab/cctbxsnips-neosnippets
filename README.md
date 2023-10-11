@@ -32,24 +32,25 @@ Replace the *3.9* or *39* above with whatever version of Python you want to use 
 It also works with Neovim.
 Its development has plateaued.
 
-There other snippets managers for Vim and NeoVim, such as ultisnips and snipmate.
+There are other snippets managers for Vim and NeoVim, such as ultisnips and snipmate.
 To complicate matters more, there several alternate systems for managing plugins.
 
 
 ## The problems that this repo addresses
 
-1. **Facilitation of code reuse**. The use of code snippets can save time by reusing existing code. The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered. Thus, tab stops can reduce subsequent debugging.
+1. **Facilitate code reuse**. The use of code snippets can save time by reusing existing code. The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered. Thus, tab stops can reduce subsequent debugging.
 
-2. **Use of Emacs to edit Jupyter and Colab code and markdown cells** The existnig snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops: These are standard features of code snippet systems in most text editors. We can overcome these limitations by sending the active code cell to Emacs via the GhostText extension for the browser and the atomic-chrome package for Emacs.
+2. **Use of Emacs to edit Jupyter and Colab code and markdown cells** The existing snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops: These are standard features of code snippet systems in most text editors.
+We can overcome these limitations by sending the active code cell to Emacs via the GhostText extension for the browser and the atomic-chrome package for Emacs.
 
 ## Installation
 
 1. Install the snippets for Vim.
 
-I assume that the Ultisnips plugin has already been properly installed.
-The snippets are stored in a single file called python.snippets.
-I store this file in a folder called my-snippets/Ultisnips.
-You may have to concatenate python.snippets with an existing python.snippets file.
+I assume that the `neosnippets` plugin has already been properly installed.
+The snippets are stored in a single file called `python.snippets`.
+I store this file in a folder called `~/.vim/my-snippets/neosnippets`.
+You may have to concatenate the `python.snippets` with an existing `python.snippets` file.
 
 ```bash
 cd ~/.vim/my-snippets/neosnippets
@@ -60,7 +61,8 @@ cd ..
 rm -rf cctbxsnips-neosnippets
 ```
 
-2. **Optional** If you want to use these snippets from Vim or NeoVim to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and the [Vim Ghost](https://github.com/raghur/vim-ghost)plugin for Vim. Intall the [nvim-ghost](https://github.com/subnut/nvim-ghost.nvim] plugin for NeoVim).
+2. **Optional** If you want to use these snippets from Vim or NeoVim to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and the [Vim Ghost](https://github.com/raghur/vim-ghost)plugin for Vim.
+3. Install the [nvim-ghost](https://github.com/subnut/nvim-ghost.nvim] plugin for NeoVim).
 
 ## Related repositories
 - [cctbxsnips-Emacs](https://github.com/MooersLab/cctbxsnips-Emacs) CCTBX snippets for the yasnippet snippet system in for Emacs.
