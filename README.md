@@ -1,5 +1,10 @@
 # cctbxsnips-neosnippets
 
+![Version](https://img.shields.io/static/v1?label=cctbxsnips-neosnippets&message=0.1&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+
 ## CCTBX
 
 [CCTBX](https://github.com/cctbx/cctbx_project) is the Computational Crystallography Toolbox. 
@@ -10,7 +15,7 @@ It is available in Anaconda in the conda-forge channel as cctbx-base for python3
 
 ### Blaine's cctbx install protocol
 
-I assume that Anaconda has already been installed. We also create the Jupyter notebook kernel while we are at it. Execute one line at a time: Wait for the execution to finish before executing the next line.
+I assume that Anaconda has already been installed. We also create the Jupyter Notebook kernel while we are at it. Execute one line at a time: Wait for the execution to finish before executing the next line.
 
 ```bash
 conda create --name cctbx39 python=3.9
@@ -32,14 +37,14 @@ Replace the *3.9* or *39* above with whatever version of Python you want to use 
 It also works with Neovim.
 Its development has plateaued.
 
-There are other snippets managers for Vim and NeoVim, such as ultisnips and snipmate.
+There are other snippets managers for Vim and NeoVim, such as `ultisnip`s and `snipmate`.
 To complicate matters more, there several alternate systems for managing plugins.
 
 
 ## The problems that this repo addresses
 
 1. **Facilitate code reuse**. The use of code snippets can save time by reusing existing code.
-The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered.
+The presence of tab stops in code snippets can help ensure that all parameters that need to be customized for a new problem are considered.
 Thus, tab stops can reduce subsequent debugging.
 
 3. **Use of Emacs to edit Jupyter and Colab code and markdown cells** The existing snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops: These are standard features of code snippet systems in most text editors.
@@ -73,6 +78,6 @@ rm -rf cctbxsnips-neosnippets
 - [cctbxsnips-UltiSnips](https://github.com/MooersLab/cctbxsnips-Ultisnips) CCTBX snippets for Vim or NeoVim via UltiSnips plugin.
 - [cctbxsnips-Snipmate](https://github.com/MooersLab/cctbxsnips-snipmate) CCTBX snippets for Vim or NeoVim via snipmate plugin.
 - [cctbxsnips-Atom](https://github.com/MooersLab/cctbxsnips-Atom) CCTBX snippets for Atom.
-- [Jupyterlab cctbx snippets](https://github.com/MooersLab/jupyterlabcctbxsnips) CCTBX snippets for JupyterLab with the jupyterlab-snippets extension or the jupyterlab-snippets-mutlimenus extension.
-- [Jupyterlab cctbx plus snippets](https://github.com/MooersLab/jupyterlabcctbxsnipsplus) The variant of the jupyterlabcctbxsnips library with comments to guide editing of the snippets.
+- [Jupyterlab cctbx snippets](https://github.com/MooersLab/jupyterlabcctbxsnips) CCTBX snippets for JupyterLab with the `jupyterlab-snippets` extension or the jupyterlab-snippets-mutlimenus extension.
+- [Jupyterlab cctbx plus snippets](https://github.com/MooersLab/jupyterlabcctbxsnipsplus) The variant of the `jupyterlabcctbxsnips` library with comments to guide editing of the snippets.
 - [Colab cctbx snippets](https://github.com/MooersLab/colabcctbxsnips) Colab snippets.
